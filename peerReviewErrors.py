@@ -72,8 +72,5 @@ def again():
 			# print("Thanks for planing")
 			print("Thanks for playing") #typo of planing corrected to playing
 			break #break needed to be called to end the program
-		# add elif for if playAgain = yes
-		elif playAgain == 'yes' or playAgain == 'y':
-			again()
 
 again() #function needs to be called to start the program
